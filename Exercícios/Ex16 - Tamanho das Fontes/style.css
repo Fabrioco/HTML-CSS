@@ -1,0 +1,15 @@
+@charset "URF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /*
+    Medida absolutas
+    cm (centimetro), mn (milimetro), in (polegada), px (pixel), pt (ponto), pc (pyka)
+
+    Medidas relativas
+    em, ex, rem, vw, vh, %
+    usar sempre as fontes PX e EM
+    */
+    font-size: 16px;
+}
+

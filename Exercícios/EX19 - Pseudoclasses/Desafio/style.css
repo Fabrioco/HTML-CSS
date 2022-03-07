@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: rgb(70, 69, 69);
+}
+a:visited{
+    color: rgb(255, 0, 0);
+}
+a:active{
+    color: rgb(251, 255, 0);
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+a::before{
+    content: '(Clique aqui) ';
+}
+a::after{
+    content: ' (Clique aqui)';
+}

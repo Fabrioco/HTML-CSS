@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body{
+    background-image:linear-gradient(to right, #4AD9D9,#36B1BF);
+    margin: 0;
+    height: 100vh;
+}
+main{
+    padding: 20px;
+    background-image: linear-gradient( 45deg,#E9F1DF,#8d9287) ;
+    box-shadow:  5px 5px 15px rgba(#f2385a88);
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+}
+div{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+
+}
+.video{/*forma mais certa*/
+    border: solid;
+    border-radius: 15px;
+    border-color:  rgb(255, 255, 255);
+    border-width: 5px;
+}
+.foto{
+     border-radius: 15px;
+     background-color: white;
+}

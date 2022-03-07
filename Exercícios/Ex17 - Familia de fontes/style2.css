@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'love';
+    src: url('fontes/love\ story.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: gotica;
+    src: url('fontes/Seagram\ tfb.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal
+}
+h1{
+    font-family: gotica, Times, serif;
+    font-weight: normal;
+    font-style: normal;
+}
+p{
+    font-family: 'love', Times, serif;
+    font-size: 2em;
+    font-weight: normal;
+}

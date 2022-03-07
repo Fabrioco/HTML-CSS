@@ -1,0 +1,29 @@
+@charset "URF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    /* block-level*/
+    background-color: lightgray;
+    height: 300px;
+    width: 300px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: darkslategray;
+
+    /* border: width*/
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    /* padding: cima direita baixo esquerda ordem correta e simplificada*/
+}
+a{
+    /* inline-level*/
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+    padding: 5px;
+
+}
