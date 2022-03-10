@@ -24,7 +24,6 @@ header > h1{
     color: rgb(199, 199, 199);
     text-align: center;
     margin-bottom: 20px;
-    padding-top: 10px;
 }
 header > p{
     color: rgba(255, 255, 255, 0.493);
@@ -87,6 +86,7 @@ main img.pequena{
 main > article > h1{
     color: rgb(105, 170, 105);
     text-align: center;
+    padding-top: 10px;
 }
 main > article > h2{
     color: rgb(105, 170, 105);
