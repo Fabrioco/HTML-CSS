@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+#conteiner{
+    height: 500px;
+    background-color: yellow;
+}
+
+#conteudo{
+    height: 200px;
+    background-color: purple;
+}
