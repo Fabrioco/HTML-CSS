@@ -5,6 +5,7 @@
 
 *{
     margin: 0%;
+    
 }
 
 body{
@@ -15,9 +16,13 @@ body{
     font-weight: 300;
 }
 
+header{
+    width: 100vw;
+}
+
 header > button{
     position: relative;
-    margin-left: 85vw;
+    margin-left: 65vw;
     margin-top: 5vw;
     background-color: #051831;
     border-radius: 100px;
@@ -42,7 +47,7 @@ main > button{
     border: 1px solid #156BDB;
     margin: 2vw 35vw 0 35vw;
     width: 30%;
-    height: 20%;
+    height: 60%;
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
