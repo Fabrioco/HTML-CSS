@@ -1,89 +1,81 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+/* text-transform:uppercase
+    (deixa todas as letra em maiusculos)
+    font-variant: small-caps
+    (deixa todas em maiusculo mas apenas as iniciais ficam maiores)*/
+
+    @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+    :root{
+        --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+        --fonte2: 'passion one', cursive;
+        --fonte3: 'sriracha', cursive;
+    }
 
 *{
-    margin: 0%;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
 }
-
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: justify;
+html, body{
+    font-family: var(--fonte1);
+    min-height: 100vh;
+    background-color: darkgray;
 }
-
 header{
     background-color: black;
     color: white;
     text-align: center;
 }
-
 header > h1{
     padding-top: 50px;
-    font-family: 'Passion One', cursive;
-    font-size: 10vw;
     font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 10vw;
 }
 
 header > p{
-    color: white;
-    text-align: center;
     padding-bottom: 50px;
 }
-
-header a{
+header a, footer a{
     color: white;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bolder;
+}
+/*  isso aqui é para quando tiver algum outro link dentro do main, que não é o caso de agora*/
+header a:hover, footer a:hover{
+    text-decoration: underline;
 }
 
-header a:hover{
-    text-decoration: underline;
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    background-color: rgb(51,51,51);
+    color: white;
+}
+
+section.imagem > p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.26);
 }
 
 footer{
     background-color: black;
-    color: white;
     text-align: center;
+    color: white;
     padding: 10px;
-}
-
-footer a{
-    color:white;
-    text-decoration: none;
-    font-weight: bold;
-    margin: 5px;
-}
-
-footer a:hover{
-    text-decoration: underline;
-}
-
-.p{
-    font-family: 'Sriracha', cursive;
-    font-size: 3vw;
-    padding: 20px 35px;
-}
-
-.p2{
-    background-color: rgba(98, 98, 98, 0.397);
-    font-family: 'Sriracha', cursive;
-    font-size: 2.5vw;
-    padding: 5vh;
-    margin: 2vw 60vw 2vw 2vw;
-    max-height: 28vw;
-}
-#img{
-    background-image: url('background001.jpg');
-    height: 41vw;
-    background-position: center center;
-    background-attachment: fixed;
-    padding-top: 1vw;
-}
-#img2{
-    background-image: url(background002.jpg);
-    height: 41vw;
-    background-position: center center;
-    background-attachment: fixed;
-    padding-top: 1vw;
 }
