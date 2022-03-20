@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, blue, pink);
+}
+
+table{
+    border-collapse: collapse;
+    position: relative;
+}
+
+tr:nth-child(2n){
+    background-color: black;
+    color: white;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+thead{
+    position: sticky;
+    top: -1px;
+    background-color: white;
+}
