@@ -5,7 +5,6 @@
 
 *{
     margin: 0%;
-    
 }
 
 body{
@@ -14,15 +13,17 @@ body{
     font-size: medium;
     color: white;
     font-weight: 300;
+    align-items: center;
 }
 
 header{
-    width: 100vw;
+    display: flex;
+    justify-content: end;
+    padding-right: 5%;
 }
 
 header > button{
     position: relative;
-    margin-left: 65vw;
     margin-top: 5vw;
     background-color: #051831;
     border-radius: 100px;
@@ -33,29 +34,42 @@ header > button{
     color: white;
 }
 
+button:hover{
+    background-color: #156BDB;
+}
+
+main{
+    display: grid;
+    justify-content: center;
+}
+
 main > h1{
     color: white;
     font-family: 'Quicksand', sans-serif;
     font-weight: 300;
     text-align: center;
-    margin: auto;
     margin-bottom: 20px;
 }
 main > button{
     background-color: #051831;
     border-radius: 20px;
+
     border: 1px solid #156BDB;
-    margin: 2vw 35vw 0 35vw;
-    width: 30%;
-    height: 60%;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+}
+
+main p{
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
 }
-main > button > svg{
+
+main svg{
     height: 80px;
     width: 80px;
     display: block;
     margin:auto;
-    
+    color: white;
 }
